@@ -7,8 +7,8 @@ const config: JestConfigWithTsJest = {
     '^.+\\.(t|j)sx?$': ['@swc/jest', { sourceMaps: 'inline' }],
   },
   moduleNameMapper: {
-    '^petstore-try-again$': '<rootDir>/src/index.ts',
-    '^petstore-try-again/(.*)$': '<rootDir>/src/$1',
+    '^petstore-sdk-stainless$': '<rootDir>/src/index.ts',
+    '^petstore-sdk-stainless/(.*)$': '<rootDir>/src/$1',
   },
   modulePathIgnorePatterns: [
     '<rootDir>/ecosystem-tests/',

@@ -1,10 +1,10 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { APIPromise } from 'petstore-try-again/core/api-promise';
+import { APIPromise } from 'petstore-sdk-stainless/core/api-promise';
 
 import util from 'node:util';
-import PetstoreTryAgain from 'petstore-try-again';
-import { APIUserAbortError } from 'petstore-try-again';
+import PetstoreTryAgain from 'petstore-sdk-stainless';
+import { APIUserAbortError } from 'petstore-sdk-stainless';
 const defaultFetch = fetch;
 
 describe('instantiate client', () => {

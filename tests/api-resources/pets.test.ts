@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import PetstoreTryAgain, { toFile } from 'petstore-try-again';
+import PetstoreTryAgain, { toFile } from 'petstore-sdk-stainless';
 
 const client = new PetstoreTryAgain({
   apiKey: 'My API Key',
