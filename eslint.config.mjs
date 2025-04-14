@@ -25,7 +25,7 @@ export default tseslint.config(
         {
           patterns: [
             {
-              regex: '^petstore-try-again(/.*)?',
+              regex: '^petstore-sdk-stainless(/.*)?',
               message: 'Use a relative import, not a package import.',
             },
           ],

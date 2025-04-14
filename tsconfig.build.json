@@ -5,8 +5,8 @@
   "compilerOptions": {
     "rootDir": "./dist/src",
     "paths": {
-      "petstore-try-again/*": ["dist/src/*"],
-      "petstore-try-again": ["dist/src/index.ts"],
+      "petstore-sdk-stainless/*": ["dist/src/*"],
+      "petstore-sdk-stainless": ["dist/src/index.ts"],
     },
     "noEmit": false,
     "declaration": true,

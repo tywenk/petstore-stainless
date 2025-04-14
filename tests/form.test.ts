@@ -1,5 +1,5 @@
-import { multipartFormRequestOptions, createForm } from 'petstore-try-again/internal/uploads';
-import { toFile } from 'petstore-try-again/core/uploads';
+import { multipartFormRequestOptions, createForm } from 'petstore-sdk-stainless/internal/uploads';
+import { toFile } from 'petstore-sdk-stainless/core/uploads';
 
 describe('form data validation', () => {
   test('valid values do not error', async () => {
