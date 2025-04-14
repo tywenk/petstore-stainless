@@ -1,6 +1,6 @@
 import fs from 'fs';
-import type { ResponseLike } from 'petstore-try-again/internal/to-file';
-import { toFile } from 'petstore-try-again/core/uploads';
+import type { ResponseLike } from 'petstore-sdk-stainless/internal/to-file';
+import { toFile } from 'petstore-sdk-stainless/core/uploads';
 import { File } from 'node:buffer';
 
 class MyClass {
@@ -97,7 +97,7 @@ describe('missing File error message', () => {
   });
 
   test('is thrown', async () => {
-    const uploads = await import('petstore-try-again/core/uploads');
+    const uploads = await import('petstore-sdk-stainless/core/uploads');
     await expect(
       uploads.toFile(mockResponse({ url: 'https://example.com/my/audio.mp3' })),
     ).rejects.toMatchInlineSnapshot(

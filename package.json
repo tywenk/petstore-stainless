@@ -1,5 +1,5 @@
 {
-  "name": "petstore-try-again",
+  "name": "petstore-sdk-stainless",
   "version": "0.0.1-alpha.0",
   "description": "The official TypeScript library for the Petstore Try Again API",
   "author": "Petstore Try Again <dev-feedback@petstore-try-again.com>",
@@ -54,8 +54,8 @@
     "./internal/shims/getBuiltinModule.js": "./internal/shims/nullGetBuiltinModule.js"
   },
   "imports": {
-    "petstore-try-again": ".",
-    "petstore-try-again/*": "./src/*"
+    "petstore-sdk-stainless": ".",
+    "petstore-sdk-stainless/*": "./src/*"
   },
   "exports": {
     ".": {

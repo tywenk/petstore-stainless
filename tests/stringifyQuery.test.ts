@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { PetstoreTryAgain } from 'petstore-try-again';
+import { PetstoreTryAgain } from 'petstore-sdk-stainless';
 
 const { stringifyQuery } = PetstoreTryAgain.prototype as any;
 

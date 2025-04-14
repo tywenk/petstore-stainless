@@ -9,8 +9,8 @@
     "esModuleInterop": true,
     "baseUrl": "./",
     "paths": {
-      "petstore-try-again/*": ["src/*"],
-      "petstore-try-again": ["src/index.ts"]
+      "petstore-sdk-stainless/*": ["src/*"],
+      "petstore-sdk-stainless": ["src/index.ts"]
     },
     "noEmit": true,
 

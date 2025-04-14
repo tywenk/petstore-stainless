@@ -1,7 +1,7 @@
 import iconv from 'iconv-lite';
-import { stringify } from 'petstore-try-again/internal/qs';
-import { encode } from 'petstore-try-again/internal/qs/utils';
-import { StringifyOptions } from 'petstore-try-again/internal/qs/types';
+import { stringify } from 'petstore-sdk-stainless/internal/qs';
+import { encode } from 'petstore-sdk-stainless/internal/qs/utils';
+import { StringifyOptions } from 'petstore-sdk-stainless/internal/qs/types';
 import { empty_test_cases } from './empty-keys-cases';
 import assert from 'assert';
 
