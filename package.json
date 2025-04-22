@@ -1,6 +1,6 @@
 {
   "name": "petstore-sdk-stainless",
-  "version": "0.0.1-alpha.1",
+  "version": "0.0.1-alpha.2",
   "description": "The official TypeScript library for the Petstore Try Again API",
   "author": "Petstore Try Again <dev-feedback@petstore-try-again.com>",
   "types": "dist/index.d.ts",
