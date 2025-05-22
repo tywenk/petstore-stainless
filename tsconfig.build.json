@@ -6,7 +6,7 @@
     "rootDir": "./dist/src",
     "paths": {
       "petstore-sdk-stainless/*": ["dist/src/*"],
-      "petstore-sdk-stainless": ["dist/src/index.ts"],
+      "petstore-sdk-stainless": ["dist/src/index.ts"]
     },
     "noEmit": false,
     "declaration": true,
