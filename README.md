@@ -1,6 +1,6 @@
 # Petstore Try Again TypeScript API Library
 
-[![NPM version](https://img.shields.io/npm/v/petstore-sdk-stainless.svg)](https://npmjs.org/package/petstore-sdk-stainless) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/petstore-sdk-stainless)
+[![NPM version](<https://img.shields.io/npm/v/petstore-sdk-stainless.svg?label=npm%20(stable)>)](https://npmjs.org/package/petstore-sdk-stainless) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/petstore-sdk-stainless)
 
 This library provides convenient access to the Petstore Try Again REST API from server-side TypeScript or JavaScript.
 
